@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style:normal;
+}
+.negrita{
+    font-weight: 400;
+}
+
+li{
+    list-style: none;
+}
+.pantalla{
+    display: flex;
+    align-items: center;
+    background-color: #cdc3e617;
+
+}
+.menu-pricipal{
+    display: flex;
+    align-items: center;
+    border: solid 1px #e8ebe4;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color:white ;
+}
+
+.menu-pricipal img{
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+    margin-left: 10px;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.maria{
+    display: flex;
+    align-items: center;
+    border: solid 1px #e8ebe4;
+    /* margin-bottom: 10px; */
+    padding: 3px 30px 3px 30px;
+
+}
+
+.maria ul{
+    padding-left: 10px;
+    padding-right: 31px;
+}
+
+.color-gris{
+    color: gray;
+    font-size: 14px;
+}
+
+.maria li{
+    padding-left: 10px;
+}
+
+.icon{
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.iconos{
+    display: flex;
+}
+
+.boton{
+    display: flex;
+    /* margin: 50px; */
+    /* margin: 50px; */
+    
+}
+button{ 
+    text-decoration: none;
+    background-color: #A491D2;
+    color: white;
+    padding: 20px 80px;
+    margin: 30px;
+    border-radius: 1px;
+    border: solid 1px white;
+    
+}
+button:hover{
+    background-color: #c4b7e2;
+}
+
+
+
+.chat{
+    display: flex;
+    align-items: center;
+    border: solid 1px #e8ebe4;
+    min-width: 46vh;
+    /* padding-left: 64px;
+    padding-right: 64px; */
+}
+
+.chat img{
+    margin-left: 40px;
+    border-radius: 150px;
+}
+
+.chat ul{
+    padding-left: 30px;
+}
+
+.menu-escritorio{
+    display: flex;
+    /* background-color: #D4DCFF; */
+
+}
+
+.hand{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 300px;
+    
+
+    
+}
+
+.hand img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+   
+}
+    
+
